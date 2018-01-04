@@ -1,0 +1,39 @@
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.parktana-main{
+  text-align: center;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  background: black;
+  color: white;
+  margin: 0;
+}
+
+.parktana-main h1{
+  font-size: 4em;
+  text-shadow: grey 5px 5px;
+}
+
+.parktana-main h1:hover{
+  text-shadow: blue 10px 10px;
+}
+
+img.emoji{
+  width: 60%;
+}
+
+.emojis, .wallpapers{
+  text-align: center;
+}
+
+img.wall{
+  width: 100%;
+}
+
+div.wall .col-6{
+  height: 60vh;
+}
