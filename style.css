@@ -37,3 +37,25 @@ img.wall{
 div.wall .col-6{
   height: 60vh;
 }
+
+ul.inline-list{
+  list-style: none;
+  overflow: hidden;
+  width: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul.inline-list li{
+  display: inline;
+  overflow: hidden;
+}
+
+ul.inline-list.seperate-bar li::after{
+  content: "|";
+  margin: 0 0.1em 0 0.4em;
+}
+
+ul.inline-list.seperate-bar li:last-of-type::after{
+  display: none;
+}
