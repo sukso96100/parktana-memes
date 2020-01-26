@@ -26,8 +26,9 @@ img.emoji{
   width: 60%;
 }
 
-.emojis, .wallpapers{
+.emojis, .wallpapers, .photos{
   text-align: center;
+  overflow: hidden;
 }
 
 img.wall{
@@ -36,6 +37,11 @@ img.wall{
 
 div.wall .col-6{
   height: 60vh;
+}
+
+div.photo .col-6{
+  height: auto;
+  overflow: hidden;
 }
 
 ul.inline-list{
