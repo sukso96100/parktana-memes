@@ -26,7 +26,7 @@ img.emoji{
   width: 60%;
 }
 
-.emojis, .wallpapers, .photos{
+.emojis, .wallpapers, .simulations, .photos{
   text-align: center;
   overflow: hidden;
 }
